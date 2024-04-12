@@ -4,6 +4,11 @@ This repository contains source code for [MIMO Channel Estimation using Score-Ba
 
 ## Getting Started
 After cloning the repository, in a clean Python environment run `pip install -r requirements.txt`.
+(
+to create and activate a virtual environment on windows:
+- python -m venv venv 
+- .\venv\Scripts\activate
+)
 
 ### Pre-generated Data
 Train and validation data for CDL-C channels can be directly downloaded from the command line using the following:
