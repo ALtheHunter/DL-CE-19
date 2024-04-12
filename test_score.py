@@ -28,6 +28,7 @@ torch.backends.cudnn.benchmark        = True
 # GPU
 os.environ["CUDA_DEVICE_ORDER"]    = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu)
+os.environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu)
 
 # Target file
 target_dir  = './models/score/%s' % args.train
